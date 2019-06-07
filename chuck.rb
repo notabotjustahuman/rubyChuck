@@ -7,8 +7,8 @@ class ChuckJoke
   end
   def help
     puts "Type ruby app.rb random to give you a random joke."
-    puts "Type ruby app.rb (IdNumber) to give you a joke with the id you input."
-    puts "Type ruby app.rb (Name) to give you a joke with changing the name."
+    puts "Type ruby app.rb (IdNumber) to pick a joke by ID."
+    puts "Type ruby app.rb (Name) to give a joke with a name you picked."
   end
 
   def get_joke_by_id(id)
