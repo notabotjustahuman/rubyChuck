@@ -13,22 +13,21 @@ class ChuckJoke
 
   def get_joke_by_id(id)
     joke = ChuckNorris::JokeFinder.find_joke(id)
-    # puts "ID  Number #{joke.id}"
+    puts "ID  Number #{joke.id}"
     puts joke.joke
   end
 
   def replace_name(first, last)
     joke = ChuckNorris::JokeFinder.get_joke(first_name: first, last_name: last)
-    # puts "ID  Number #{joke.id}"
+    puts "ID  Number #{joke.id}"
     puts joke.joke
   end
 
   def random
     joke = ChuckNorris::JokeFinder.get_joke
-    # puts "ID  Number #{joke.id}"
+    puts "ID  Number #{joke.id}"
     puts joke.joke
   end
 end
-
 
 # puts hehe.random
